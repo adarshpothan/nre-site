@@ -1,0 +1,118 @@
+.color-eg{
+    color:#0b132b;
+    color:#535761;
+    color:#3a506b;
+    color:#d7d7d7;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.login-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0B132B;
+    background: linear-gradient(145deg, rgba(11, 19, 43, 1) 0%, rgba(83, 87, 97, 1) 100%);
+}
+.login-card{
+    width: 70%;
+    max-width: 400px;
+    height: 70%;
+    min-height: 500px;
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.lr-title{
+    color:#0b132b ;
+    font-weight: bold;
+    font-size: 35px;
+}
+.lr-tb{
+    border: 0;
+    font-size: 12px;
+    width: 100%;
+    background-color: transparent;
+}
+.lr-tb:focus{
+    outline: none;        
+    box-shadow: none;    
+    border-color: initial;
+}
+.lr-tb::placeholder{
+    color: #0B132B; 
+    opacity: 1;
+}
+.lr-un{
+    border: #f2f2f2 1px solid;
+    margin-top: 8px;
+    width: 90%;
+    max-width: 300px;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #f0f4f8 0%, #d9e2ec 100%);
+    color: #0B132B;
+    font-size:larger;
+}
+.signup-prompt{
+    font-size: smaller;
+    margin-bottom: 10px;
+    text-decoration:none;
+}
+.fogt-pwd{
+    font-size: smaller;
+    text-decoration:none;
+    text-align: right;
+    width: 90%;
+}
+.nre-btn-lr{
+    border: 0;
+    width: 50%;
+    max-width: 150px;
+    margin-bottom: 0px;
+    height: 7%;
+    min-height: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #3a506b 0%, #1f2a44 100%);
+    color: #d7d7d7;
+
+    
+}
+.nre-btn-lr:hover{
+    background: linear-gradient(90deg, #0b132b 0%, #223050 100%);
+    color: #f5f5f6;  /* use dark text since background is lighter at top */
+
+}
+.hr-70p {
+  width: 70%;           
+  margin: 20px auto;         
+  border: none;               
+  height: 2px;                
+  background-color: #0b132b; 
+
+}
+.or{
+    width:150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #0B132B;
+}
+.gf-icon{
+    color: #0b132b;       
+    text-decoration: none;  
+     transition: color 0.3s ease;
+}
+.gf-icon:hover{
+    color: #3a506b;          
+}
