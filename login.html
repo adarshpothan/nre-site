@@ -45,10 +45,27 @@
     <div class="row h-100 align-items-center justify-content-center mx-2">
       <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 nre-white p-4 rounded-5 text-center shadow">
         <img class="sign-logo mb-4" src="./image/logos/nre-logo.png" alt="">
-        <h3 class="poppins-medium nre-text-black text-center mb-4">Create an account</h3>
-        <a href="./get-email.html" class="btn btn-dark nre-black w-100 poppins-regular rounded-5 mb-3 py-3 d-flex align-items-center justify-content-center gap-2">
-          <i class="fa-solid fa-envelope"></i> Continue with Email
-        </a> 
+        <h3 class="poppins-medium nre-text-black text-center mb-4">Sign in to your account</h3>
+        <form action="./home.html" method="get">
+            <div class="input-group mb-3 rounded-5 border border-black overflow-hidden">
+                <span class="input-group-text bg-white border-0 ps-4">
+                <i class="fa-solid fa-user"></i>
+                </span>
+                <input type="text" class="form-control border-0 py-3" placeholder="Enter your username">
+            </div>
+           <div class="input-group mb-3 rounded-5 border border-black overflow-hidden">
+                <span class="input-group-text bg-white border-0 ps-4">
+                    <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="password" class="form-control border-0 py-3" placeholder="Enter your password">
+            </div>
+        <button class="btn btn-dark mt-1 p-5 py-3 rounded-5 w-100" type="submit">Log in</button>
+        </form>
+        <div class="d-flex align-items-center my-3">
+            <hr class="flex-grow-1">
+                <span class="mx-2 text-muted">OR</span>
+            <hr class="flex-grow-1">
+        </div>
         <a href="#" class="btn btn-white border border-1 border-black nre-text-black w-100 rounded-5 mb-3 py-3 d-flex align-items-center justify-content-center gap-2">
           <i class="fa-brands fa-facebook"></i> Continue with Facebook
         </a> 
@@ -56,7 +73,7 @@
           <i class="fa-brands fa-google"></i> Continue with Google
         </a>
         <p class="text-center mt-3">
-            Already a member? <a href="./login.html" class="nre-link poppins-medium">Log in</a>
+            Don’t have an account yet? <a href="./register.html" class="nre-link poppins-medium">Sign Up</a>
         </p>
       </div>
     </div>
