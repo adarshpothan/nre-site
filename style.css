@@ -142,6 +142,7 @@
     box-shadow: none;
     color: var(--main-balck);
     font-weight: 450;
+    background-color: transparent;
 }
 .btn-dark:hover{
     border: var(--main-balck) 1px solid;
@@ -154,3 +155,4 @@
     font-size: 50px;
     color: #d6d6d6;
 }
+
