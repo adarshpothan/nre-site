@@ -28,6 +28,9 @@
 .nre-dark-gray{
     background-color: var(--main-dark-gray);
 }
+.nre-footer-gray{
+    background-color: var(--main-footer-gray);
+}
 .nre-text-yellow{
     color: var(--main-yellow);   
 }
@@ -155,4 +158,26 @@
     font-size: 50px;
     color: #d6d6d6;
 }
-
+.btn-div{
+    transition: all 0.3s ease-in;
+}
+.btn-div:hover{
+    box-shadow: gray 5px 5px 15px;
+}
+.size-chart-font{
+    font-size: small;
+    height: 20px;
+}
+.btn-atc{
+    transition: all 0.3s ease-in;
+    box-shadow: gray 1px 1px 3px;
+}
+.btn-atc:hover{
+    background: var(--main-yellow-grdnt);
+    box-shadow: gray 2px 2px 10px;
+    border: 0;
+}
+.btn-gray:hover{
+    background-color:#b6bbcc;
+    font-weight: 600;
+}
